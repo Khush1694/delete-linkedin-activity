@@ -59,6 +59,7 @@ It's just a bunch of front end JavaScript errors, loca. Who cares?
 
 ### Will Linkedin punish me?
 
+
 Linkedin will only punish you if the scripts run too fast -- in that case, they may temporarily block your IP address, but that's about it. As a safeguard, I've added a bunch of timers to slow things down and not bombard their APIs with requests. Feel free to fork this repo and tweak those values if you want, but right now the time values used by default (between two and five seconds) should be just fine.
 
 ### Will Linkedin still keep the content somewhere?
